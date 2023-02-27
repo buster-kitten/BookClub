@@ -1,0 +1,227 @@
+@charset "UTF-8";
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	width:100%;
+	height:100%;
+}
+.join2back {
+	width:100%;
+	height:150vh;
+	background-image: url(../images/books-1655783_1920.jpg);
+	background-size: cover;
+	background-attachment:fixed; 
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+.joinin2form {
+	background-color:#fff;
+	width:800px;
+	min-height:50vh;
+	padding:100px;
+	margin-top:100px;
+	margin-bottom:50px;
+	border-radius:5px;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+}
+
+input {
+	display:none;
+}
+.checks>label {
+	background-color:#b9a28c;
+}
+label {
+	background-color:#b9a28c;
+	display:block;
+	float:left;
+	width:100px;
+	height:100px;
+	margin-right:30px;
+	margin-bottom:30px;
+	border-radius:50%;
+	text-align:center;
+	line-height:100px;
+	color:#fff;
+	font-size:18px;
+}
+.health {
+	display:none;
+}
+.health>label {
+	background-color: #d27f7d;
+}
+.hobby {
+	display:none;
+}
+.hobby>label {
+	background-color: #987095;
+}
+.literature {
+	display:none;
+}
+.literature>label {
+	background-color: #9986b2;
+}
+.genrenovel {
+	display:none;
+}
+.genrenovel>label {
+	background-color: #c4bfe3;
+}
+.business {
+	display:none;
+}
+.business>label {
+	background-color: #9dc1bb;
+}
+.art {
+	display:none;
+}
+.art>label {
+	background-color: #799d9f;
+}
+.history {
+	display:none;
+}
+.history>label {
+	background-color: #649696;
+}
+.cartoon {
+	display:none;
+}
+.cartoon>label {
+	background-color: #617c4a;
+}
+.genrecartoon {
+	display:none;
+}
+.genrecartoon>label {
+	background-color: #909a6b;
+}
+.humanities {
+	display:none;
+}
+.humanities>label {
+	background-color: #ced496;
+}
+.philosophy {
+	display:none;
+}
+.philosophy>label {
+	background-color: #efe6a7;
+}
+.w_philosophy {
+	display:none;
+}
+.w_philosophy>label {
+	background-color: #ccc266;
+}
+.religion {
+	display:none;
+}
+.religion>label {
+	background-color: #a39d67;
+}
+.science {
+	display:none;
+}
+.science>label {
+	background-color: #dfb470;
+}
+.socialscience {
+	display:none;
+}
+.socialscience>label {
+	background-color: #c2835a;
+}
+.computer {
+	display:none;
+}
+.computer>label {
+	background-color: #b86e5d;
+}
+.language {
+	display:none;
+}
+.language>label {
+	background-color: #997e8c;
+}
+.English {
+	display:none;
+}
+.English>label {
+	background-color: #81626f;
+}
+.SLang {
+	display:none;
+}
+.SLang>label {
+	background-color: #81626f;
+}
+.Chinese {
+	display:none;
+}
+.Chinese>label {
+	background-color: #75635f;  
+}
+.Japanese {
+	display:none;
+}
+.Japanese>label {
+	background-color: #75635f;  
+}
+.Spanish {
+	display:none;
+}
+.Spanish>label {
+	background-color: #75635f;  
+}
+.French {
+	display:none;
+}
+.French>label {
+	background-color: #75635f;  
+}
+.German {
+	display:none;
+}
+.German>label {
+	background-color: #75635f;  
+}
+.test {
+	display:none;
+}
+.test>label {
+	background-color: #949173;  
+}
+
+.active {
+	display:block;
+}
+.button_div {
+
+}
+.shortin_button {
+	width:300px;
+	padding:15px 10px;
+	text-align:center;
+	border:none;
+	border-radius:6px;
+	background-color:#ff4a4a;
+	color:#fff;
+	cursor: pointer;
+}
+.later_button {
+	width:300px;
+	padding:15px 10px;
+	border:none;
+	border-radius:6px;
+	cursor: pointer;
+}
